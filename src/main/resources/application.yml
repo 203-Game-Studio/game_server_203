@@ -1,0 +1,14 @@
+server:
+  port: 9903
+
+spring:
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: zelda
+    password: XLsHHYc4EzPyXLS3
+    url: jdbc:mysql://39.105.212.17:3306/game_server_203?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
+    #添加 Druid 配置，指定数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+
