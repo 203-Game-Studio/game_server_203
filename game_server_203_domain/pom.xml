@@ -31,6 +31,16 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <!--  protobuf 支持 Java 核心包-->
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java</artifactId>
+    </dependency>
+    <!--  proto 与 Json 互转会用到-->
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java-util</artifactId>
+    </dependency>
   </dependencies>
 
   <build>
