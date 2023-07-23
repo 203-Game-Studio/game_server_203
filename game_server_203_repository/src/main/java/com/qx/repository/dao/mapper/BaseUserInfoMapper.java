@@ -1,7 +1,7 @@
-package com.qx.game_server_203.dao.mapper;
+package com.qx.repository.dao.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.qx.game_server_203.dao.model.BaseUserInfo;
+import com.qx.repository.dao.model.BaseUserInfo;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

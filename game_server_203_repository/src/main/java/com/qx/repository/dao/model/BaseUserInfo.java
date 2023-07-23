@@ -1,4 +1,4 @@
-package com.qx.game_server_203.dao.model;
+package com.qx.repository.dao.model;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
